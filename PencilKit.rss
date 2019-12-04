@@ -11,7 +11,7 @@
     <item>
       <title>PencilKit for Sketch</title>
       <pubDate>Tue, 03 Dec 2019 16:00:00 +0000</pubDate>
-      <enclosure url="https://www.wireframerate.com/s/PencilKit.sketch" type="application/octet-stream" sparkle:version="1"/>
+      <enclosure url="https://github.com/WireFrameRate/PencilKitForSketch/raw/master/PencilKit.sketch" type="application/octet-stream" sparkle:version="1"/>
     </item>
   </channel>
 </rss>
