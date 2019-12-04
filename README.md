@@ -11,7 +11,7 @@ On the Toolpicker, there are control buttons, tools, and color pallette buttons.
 Finally, this library includes a render of the generation 2 Apple Pencil.
 
 ## Toolpicker
-
+![Light mode horizontal Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_light_horizontal.png "Light mode horizontal Toolpicker")
 ## Tools
 
 ## Control Buttons
