@@ -12,6 +12,8 @@ Finally, this library includes a render of the generation 2 Apple Pencil.
 
 ## Toolpicker
 ![Light mode horizontal Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_light_horizontal.png "Light mode horizontal Toolpicker")
+
+![Dark mode horizontal Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_dark_horizontal.png "Dark mode horizontal Toolpicker")
 ## Tools
 
 ## Control Buttons
