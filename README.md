@@ -33,7 +33,11 @@ The library can be downloaded and installed locally, or installed as a remote li
 
 [Click here to download](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/PencilKit.sketch)
 
-[Click here to install remote library](sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitForSketch%2Fraw%2Fmaster%2FPencilKit.rss)
+Copy and paste the following into your browser address bar to install the remote library:
+
+```
+sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitForSketch%2Fraw%2Fmaster%2FPencilKit.rss
+```
 
 ## Future Updates
 The library currently only contains a left-docked vertical Toolpicker. In the future, a right-docked Toolpicker will be added.
