@@ -8,7 +8,7 @@ This library contains four primary symbols: Horizontal Toolpicker, vertical Tool
 
 Areas of the Toolpicker are:
 * Control Buttons: Undo, Redo, and More. Library provides enabled and disabled states for light- and dark-mode.
-* Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode.
+* Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
 * Color Palette: Six buttons with overrides for color and selected state. The buttons themselves are universal (light- and dark-mode use the same symbol), however the selected state symbol has separate symbols for light- and dark-mode.
 
 
