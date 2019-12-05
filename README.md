@@ -35,5 +35,16 @@ The library can be downloaded and installed locally, or installed as a remote li
 
 [Click here to install remote library](sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitForSketch%2Fraw%2Fmaster%2FPencilKit.rss)
 
+## Future Updates
+The library currently only contains a left-docked vertical Toolpicker. In the future, a right-docked Toolpicker will be added.
+
+The tip size indicator is only shown in one size. The library will be updated to include multiple size option overrides.
+
+Tip color and tip size indicator color will be update to provide color customization.
+
+Color selector popup will be added.
+
+"More" popup window will be added.
+
 
 
