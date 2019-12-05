@@ -1,4 +1,4 @@
-# PencilKitForSketch
+# PencilKit For Sketch
 Sketch library that provides Apple PencilKit UI resources.
 
 ## Introduction
