@@ -1,6 +1,7 @@
 # PencilKit For Sketch
 Sketch library that provides Apple PencilKit UI resources.
 
+
 ## Introduction
 The primary component of the PencilKit UI is the Toolpicker that appears at the botton of the canvas (by default). The ToolPicker can also be dragged, in which it transitions to a circle containing the currently-selected tool, or minimized to a slightly smaller circle. Dragging allows the Toolpicker to be docked onto the side of the screen in a vertical position.
 
@@ -28,6 +29,12 @@ For the in-motion and minimized states, the tool should match the selected tool 
 ![Light mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_light_minimized.png "Light mode minimized Toolpicker") ![Dark mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_dark_minimized.png "Dark mode minimized Toolpicker")
 
 
+## Apple Pencil Gen2
+Finally, the library provides a vector-based render of the generation 2 Apple Pencil.
+
+![Apple Pencil Gen2](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/pencil_gen2.png "Apple Pencil Gen2")
+
+
 ## Installation Options
 The library can be downloaded and installed locally, or installed as a remote library. If you download and install locally, you will have to manually check for and install updated. If you install as a remote library, you will recieve automatic updates when new library versions are published to GitHub.
 
@@ -38,6 +45,7 @@ Copy and paste the following into your browser address bar to install the remote
 ```
 sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitForSketch%2Fraw%2Fmaster%2FPencilKit.rss
 ```
+
 
 ## Future Updates
 The library currently only contains a left-docked vertical Toolpicker. In the future, a right-docked Toolpicker will be added.
