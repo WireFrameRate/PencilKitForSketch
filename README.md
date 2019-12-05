@@ -1,6 +1,8 @@
 # PencilKit For Sketch
 Sketch library that provides Apple PencilKit UI resources.
 
+**Current Version: 2.0
+
 
 ## Introduction
 The primary component of the PencilKit UI is the Toolpicker that appears at the botton of the canvas (by default). The ToolPicker can also be dragged, in which it transitions to a circle containing the currently-selected tool, or minimized to a slightly smaller circle. Dragging allows the Toolpicker to be docked onto the side of the screen in a vertical position.
