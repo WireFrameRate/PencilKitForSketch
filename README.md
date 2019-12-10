@@ -1,7 +1,7 @@
 # PencilKit For Sketch
 Sketch library that provides Apple PencilKit UI resources.
 
-**Current Version: 2.0**
+**Current Version: 3.0**
 
 
 ## Introduction
@@ -12,11 +12,11 @@ This library contains four primary symbols: Horizontal Toolpicker, vertical Tool
 Areas of the Toolpicker are:
 * Control Buttons: Undo, Redo, and More. Library provides enabled and disabled states for light- and dark-mode.
 * Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
-* Color Palette: Six buttons with overrides for color and selected state. The buttons themselves are universal (light- and dark-mode use the same symbol), however the selected state symbol has separate symbols for light- and dark-mode.
+* Color Palette: Six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).
 
 
 ## Usage in Prototypes
-In iPadOS, there is always one tool selected in the toolpicker by default. It is only possible to select one tool at a time. If a drawing tool is selected (pen, marker, pencil), then the corresponding color should be selected.
+In iPadOS, there is always one tool selected in the toolpicker by default. It is only possible to select one tool at a time. If a drawing tool is selected (pen, marker, pencil), then the corresponding color should be selected.  In version 3.0 and later, the Pen, Marker, and Pencil tools have overrides that allow customization of tip color and size.
 
 If your prototype includes a marked-up canvas, the Undo button override should be set to the enabled symbol. The More button should typically always be enabled.
 
@@ -50,15 +50,10 @@ sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitFor
 
 
 ## Future Updates
-The library currently only contains a left-docked vertical Toolpicker. In the future, a right-docked Toolpicker will be added.
-
-The tip size indicator is only shown in one size. The library will be updated to include multiple size option overrides.
-
-Tip color and tip size indicator color will be update to provide color customization.
-
-Color selector popup will be added.
-
-"More" popup window will be added.
+* Color selector popup will be added.
+* "More" popup window will be added.
+* Tool popups
+* Ruler on canvas.
 
 
 
