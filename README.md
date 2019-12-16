@@ -30,6 +30,9 @@ For the in-motion and minimized states, the tool should match the selected tool 
 
 ![Light mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_light_minimized.png "Light mode minimized Toolpicker") ![Dark mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_dark_minimized.png "Dark mode minimized Toolpicker")
 
+Finally, for several tools there are popup menus to access more settings like tip size, opacity, etc. 
+
+![Popups overview]((https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/popup_menus.png "Popup Menus")
 
 ## Apple Pencil Gen2
 Finally, the library provides a vector-based render of the generation 2 Apple Pencil.
