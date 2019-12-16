@@ -32,7 +32,7 @@ For the in-motion and minimized states, the tool should match the selected tool 
 
 Finally, for several tools there are popup menus to access more settings like tip size, opacity, etc. 
 
-![Popups overview]((https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/popup_menus.png "Popup Menus")
+![Popups overview](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/popup_menus.png "Popup Menus")
 
 ## Apple Pencil Gen2
 Finally, the library provides a vector-based render of the generation 2 Apple Pencil.
