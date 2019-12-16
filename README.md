@@ -1,7 +1,7 @@
 # PencilKit For Sketch
 Sketch library that provides Apple PencilKit UI resources.
 
-**Current Version: 3.0**
+**Current Version: 4.0**
 
 
 ## Introduction
