@@ -1,5 +1,5 @@
 # PencilKit For Sketch
-Sketch library that provides Apple PencilKit UI resources.
+Design library that provides Apple PencilKit UI resources.  Supports Sketch and InVision Studio.
 
 **Current Version: 4.0**
 
@@ -41,6 +41,7 @@ Finally, the library provides a vector-based render of the generation 2 Apple Pe
 
 
 ## Installation Options
+### Sketch:
 The library can be downloaded and installed locally, or installed as a remote library. If you download and install locally, you will have to manually check for and install updated. If you install as a remote library, you will recieve automatic updates when new library versions are published to GitHub.
 
 [Click here to download](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/PencilKit.sketch)
@@ -51,6 +52,8 @@ Copy and paste the following into your browser address bar to install the remote
 sketch://add-library?url=https%3A%2F%2Fgithub.com%2FWireFrameRate%2FPencilKitForSketch%2Fraw%2Fmaster%2FPencilKit.rss
 ```
 
+### InVision Studio:
+To install in Studio, download [PencilKit.studio](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/PencilKit.studio).  From a Studio project, click the '+' button next to Libraries.  Locate and select PencilKit.studio to install.
 
 ## Future Updates
 * Color selector popup will be added.
