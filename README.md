@@ -1,5 +1,5 @@
-# PencilKit For Sketch
-Design library that provides Apple PencilKit UI resources.  Supports Sketch and InVision Studio.
+# PencilKit Design Library
+Design library that provides Apple PencilKit UI resources.  Supports Sketch, Figma, and InVision Studio.
 
 **Current Version: 4.0**
 
