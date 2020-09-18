@@ -1,7 +1,7 @@
 # PencilKit Design Library
 Design library that provides Apple PencilKit UI resources.  Supports Sketch, Figma, and InVision Studio.
 
-**Current Version: 4.0**
+**Current Version: 5.0**
 
 
 ## Introduction
@@ -13,6 +13,13 @@ Areas of the Toolpicker are:
 * Control Buttons: Undo, Redo, and More. Library provides enabled and disabled states for light- and dark-mode.
 * Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
 * Color Palette: Six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).
+
+### What's new in iPad 14
+iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.
+
+![Light mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-light-ios14.png "Light mode horizontal Toolpicker in iPadOS 14)
+
+![Dark mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-dark-ios14.png "Dark mode horizontal Toolpicker in iPadOS 14)
 
 
 ## Usage in Prototypes
