@@ -17,9 +17,9 @@ Areas of the Toolpicker are:
 ### What's new in iPad 14
 iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.
 
-![Light mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-light-ios14.png "Light mode horizontal Toolpicker in iPadOS 14)
+![Light mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-light-ios14.png "Light mode horizontal Toolpicker in iPadOS 14")
 
-![Dark mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-dark-ios14.png "Dark mode horizontal Toolpicker in iPadOS 14)
+![Dark mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-dark-ios14.png "Dark mode horizontal Toolpicker in iPadOS 14")
 
 
 ## Usage in Prototypes
