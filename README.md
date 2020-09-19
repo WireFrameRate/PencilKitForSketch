@@ -23,9 +23,7 @@ iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Desig
 
 One of the buttons in the new Text Pallet is Font Format, which opens a new popup.  Like the previous popups, this should NOT be scaled for different screen sizes.
 
-![Light mode Font Format Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-font-popup.png "Light mode Font Format Popup in iPadOS 14")
-
-![Dark mode Font Format Popus in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-font-popup.png "Dark mode Font Format Popup in iPadOS 14")
+![Light mode Font Format Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-font-popup.png "Light mode Font Format Popup in iPadOS 14") ![Dark mode Font Format Popus in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-font-popup.png "Dark mode Font Format Popup in iPadOS 14")
 
 While it's not new in iPadOS 14, we have added a new symbol to the library: The navigation bar Apple's Notes app.  It is available in Light and Dark modes.  Please note, it should NOT be scaled for the different screen sizes.  Simply adjust the width to fit the screen.
 
@@ -48,9 +46,53 @@ For the in-motion and minimized states, the tool should match the selected tool 
 
 ![Light mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_light_minimized.png "Light mode minimized Toolpicker") ![Dark mode minimized Toolpicker](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker_dark_minimized.png "Dark mode minimized Toolpicker")
 
-Finally, for several tools there are popup menus to access more settings like tip size, opacity, etc. 
+### Note on Scaling
+Depending on device, Toolpickers (Horizontal, Vertical, Minimized, In-Motion) need to be scaled to match the screen size of the device.  All symbols were created for an 11" iPad Pro.  If you are using this device as a reference, there is no need to scale any symbols.  For all other devices, you will need to insert the necessary Toolpicker symbol, then choose Scale from the Sketch toolbar.  Use the percentage from the following table to scale the Toolpicker symbol to the correct size for the device in use:
+
+<table>
+  <tr>
+    <th> Device </th>
+    <th> Width </th>
+    <th> Height </th>
+    <th> Scale </th>
+  </tr>
+  <tr>
+    <td> iPad Pro 12.9" </td>
+    <td> 1194 </td>
+    <td> 834 </td>
+    <td> 117% </td>
+  </tr><tr>
+    <td> iPad Pro 11" </td>
+    <td> 1366 </td>
+    <td> 1024 </td>
+    <td> 100% </td>
+  </tr>
+  <tr>
+    <td> iPad Pro 10.5" </td>
+    <td> 1112 </td>
+    <td> 844 </td>
+    <td> 96% </td>
+  </tr>
+  <tr>
+    <td> iPad Pro 9.7" </td>
+    <td> 1024 </td>
+    <td> 768 </td>
+    <td> 88% </td>
+  </tr>
+  <tr>
+    <td> iPad Mini 7.9" </td>
+    <td> 1024 </td>
+    <td> 768 </td>
+    <td> 88% </td>
+  </tr>
+</table>
+
+For other symbols (popups, navbars, etc.), do <b>not</b> scale.  Popups should not be resized at all.  Navbars width should be adjusted to span the screen.
+
+Severeal of the Toolpicker tools or palette buttons open popups when tapped in order to access more settings like tip size, opacity, etc. 
 
 ![Popups overview](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/popup_menus.png "Popup Menus")
+![Dark mode Font Format Popus in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-font-popup.png "Dark mode Font Format Popup in iPadOS 14") ![Light mode Font Format Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-font-popup.png "Light mode Font Format Popup in iPadOS 14")
 
 ## Apple Pencil Gen2
 Finally, the library provides a vector-based render of the generation 2 Apple Pencil.
