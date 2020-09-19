@@ -14,13 +14,24 @@ Areas of the Toolpicker are:
 * Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
 * Color Palette: Six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).
 
-### What's new in iPad 14
-iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.
+### What's new in version 5.0
+iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.  Like the previous Toolpicker symbols, the new iPadOS14 toolpickers shouldl be scaled depending on screen size.  See the table below for details.
 
 ![Light mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-light-ios14.png "Light mode horizontal Toolpicker in iPadOS 14")
 
 ![Dark mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-dark-ios14.png "Dark mode horizontal Toolpicker in iPadOS 14")
 
+One of the buttons in the new Text Pallet is Font Format, which opens a new popup.  Like the previous popups, this should NOT be scaled for different screen sizes.
+
+![Light mode Font Format Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-font-popup.png "Light mode Font Format Popup in iPadOS 14")
+
+![Dark mode Font Format Popus in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-font-popup.png "Dark mode Font Format Popup in iPadOS 14")
+
+While it's not new in iPadOS 14, we have added a new symbol to the library: The navigation bar Apple's Notes app.  It is available in Light and Dark modes.  Please note, it should NOT be scaled for the different screen sizes.  Simply adjust the width to fit the screen.
+
+![Light mode Drawing Navbar in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-navbar.png "Light mode horizontal Toolpicker in iPadOS 14")
+
+![Dark mode Drawing Navbar in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-navbar.png "Dark mode horizontal Toolpicker in iPadOS 14")
 
 ## Usage in Prototypes
 In iPadOS, there is always one tool selected in the toolpicker by default. It is only possible to select one tool at a time. If a drawing tool is selected (pen, marker, pencil), then the corresponding color should be selected.  In version 3.0 and later, the Pen, Marker, and Pencil tools have overrides that allow customization of tip color and size.
