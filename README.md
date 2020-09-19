@@ -7,12 +7,12 @@ Design library that provides Apple PencilKit UI resources.  Supports Sketch, Fig
 ## Introduction
 The primary component of the PencilKit UI is the Toolpicker that appears at the botton of the canvas (by default). The ToolPicker can also be dragged, in which it transitions to a circle containing the currently-selected tool, or minimized to a slightly smaller circle. Dragging allows the Toolpicker to be docked onto the side of the screen in a vertical position.
 
-This library contains four primary symbols: Horizontal Toolpicker, vertical Toolpicker, minimized Toolpicker, and and in-motion Toolpicker. Each is implemented in light- and dark-mode. All other symbols in this library are overrides for the Toolpicker.
+This library contains four primary symbols: Horizontal Toolpicker, vertical Toolpicker, minimized Toolpicker, and and in-motion Toolpicker. Each is implemented in light- and dark-mode. The library also includes overrides for the Toolpicker, tool popup menus, and an Apple Notes-like navigation bar.
 
 Areas of the Toolpicker are:
 * Control Buttons: Undo, Redo, and More. Library provides enabled and disabled states for light- and dark-mode.
 * Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
-* Color Palette: Six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).
+* Toolpicker Palettes: Color palette with six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).  Text palette with four butons for inserting a table, opening the keyboard, formatting font, and inserting a carriage return.
 
 ### What's new in version 5.0
 iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.  Like the previous Toolpicker symbols, the new iPadOS14 toolpickers shouldl be scaled depending on screen size.  See the table below for details.
