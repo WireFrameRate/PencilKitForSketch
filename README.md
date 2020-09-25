@@ -18,6 +18,8 @@ Areas of the Toolpicker are:
 ### What's new in version 6.0
 
 
+![Light mode Color Picker Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-colorpicker-ios14.png "Light mode Color Picker Popup in iPadOS 14") ![Dark mode Color Picker Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-colorpicker-ios14.png "Dark mode Color Picker Popup in iPadOS 14")
+
 ### What's new in version 5.0
 iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.  Like the previous Toolpicker symbols, the new iPadOS14 toolpickers shouldl be scaled depending on screen size.  See the table below for details.
 
