@@ -15,7 +15,7 @@ Areas of the Toolpicker are:
 * Control Buttons: Undo, Redo, and More. Library provides enabled and disabled states for light- and dark-mode.
 * Tools: Pen, Marker, Pencil, Eraser, Selection, and Ruler. Library provides selected and deselected states for light- and dark-mode. Drawing tools also provide a text override for opacity.
 * Toolpicker Palettes: Color palette with six buttons with overrides for color and selected state. The buttons are universal (light- and dark-mode use the same symbol).  Text palette with four butons for inserting a table, opening the keyboard, formatting font, and inserting a carriage return.
-### What's new in version 6.0
+### What's new in version 6.0 (Sketch Only)
 Apple added a new color picker control for iOS 14 that includes options of a grid, spectrum or RGB sliders.
 
 ![Light mode Color Picker Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/light-colorpicker-ios14.png "Light mode Color Picker Popup in iPadOS 14") ![Dark mode Color Picker Popup in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/dark-colorpicker-ios14.png "Dark mode Color Picker Popup in iPadOS 14")
@@ -26,7 +26,7 @@ This version of the library is also the first to support the iPhone markup toolp
 
 
 
-### What's new in version 5.0
+### What's new in version 5.0 (Sketch Only)
 iPadOS 14 added a new tool - the Text tool - to the toolpicker.  PencilKit Design Library has been updated to include the new tool.  In iPadOS, when you select the Text tool, the color palette is also replaced with a new set of tools.  The pallet has been made a nested, overridable symbol so that your design prototypes can quickly be updated to reflect selection of the Text Tool.  Like the previous Toolpicker symbols, the new iPadOS14 toolpickers shouldl be scaled depending on screen size.  See the table below for details.
 
 ![Light mode horizontal Toolpicker in iPadOS 14](https://github.com/WireFrameRate/PencilKitForSketch/raw/master/img/toolpicker-horizontal-light-ios14.png "Light mode horizontal Toolpicker in iPadOS 14")
